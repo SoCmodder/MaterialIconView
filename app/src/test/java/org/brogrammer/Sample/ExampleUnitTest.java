@@ -1,4 +1,4 @@
-package com.adrienfenech.materialiconview;
+package org.brogrammer.Sample;
 
 import org.junit.Test;
 

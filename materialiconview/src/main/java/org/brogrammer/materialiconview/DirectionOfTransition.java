@@ -1,4 +1,4 @@
-package com.adrienfenech.materialiconview;
+package org.brogrammer.materialiconview;
 
 /**
  * Created by Adrien Fenech on 29/04/16.

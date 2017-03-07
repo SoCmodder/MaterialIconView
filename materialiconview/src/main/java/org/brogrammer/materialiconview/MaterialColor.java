@@ -1,4 +1,4 @@
-package com.adrienfenech.materialiconview;
+package org.brogrammer.materialiconview;
 
 import android.graphics.Color;
 

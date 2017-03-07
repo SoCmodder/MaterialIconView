@@ -1,11 +1,11 @@
-package com.adrienfenech.Sample;
+package org.brogrammer.Sample;
 
 import android.graphics.Point;
 
-import com.adrienfenech.materialiconview.DirectionOfTransition;
-import com.adrienfenech.materialiconview.MaterialColor;
-import com.adrienfenech.materialiconview.MaterialIconView;
-import com.adrienfenech.materialiconview.TypeOfTransition;
+import org.brogrammer.materialiconview.DirectionOfTransition;
+import org.brogrammer.materialiconview.MaterialColor;
+import org.brogrammer.materialiconview.MaterialIconView;
+import org.brogrammer.materialiconview.TypeOfTransition;
 
 import java.util.Arrays;
 import java.util.List;

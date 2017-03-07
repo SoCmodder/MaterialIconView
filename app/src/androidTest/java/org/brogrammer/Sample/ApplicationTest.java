@@ -1,4 +1,4 @@
-package com.adrienfenech.materialiconview;
+package org.brogrammer.Sample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

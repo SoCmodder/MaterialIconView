@@ -1,4 +1,4 @@
-package com.adrienfenech.Sample;
+package org.brogrammer.Sample;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -16,26 +16,28 @@ import android.view.ViewPropertyAnimator;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 
-import com.adrienfenech.materialiconview.MaterialAnimatorListenerAdapter;
-import com.adrienfenech.materialiconview.MaterialColor;
-import com.adrienfenech.materialiconview.MaterialIconView;
-import com.adrienfenech.materialiconview.MaterialPropertyAnimator;
-import com.adrienfenech.materialiconview.MaterialPropertyAnimator.PremeditateAction;
-import com.adrienfenech.materialiconview.TypeOfTransition;
+import com.brogrammer.Sample.R;
+
+import org.brogrammer.materialiconview.MaterialAnimatorListenerAdapter;
+import org.brogrammer.materialiconview.MaterialColor;
+import org.brogrammer.materialiconview.MaterialIconView;
+import org.brogrammer.materialiconview.MaterialPropertyAnimator;
+import org.brogrammer.materialiconview.MaterialPropertyAnimator.PremeditateAction;
+import org.brogrammer.materialiconview.TypeOfTransition;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.adrienfenech.Sample.AnimationHelper.launchAndroidAnimation;
-import static com.adrienfenech.Sample.AnimationHelper.launchCircleAnimation;
-import static com.adrienfenech.Sample.AnimationHelper.launchHorizontalAnimation;
-import static com.adrienfenech.Sample.AnimationHelper.launchLineAnimation;
-import static com.adrienfenech.Sample.AnimationHelper.launchRectangleAnimation;
-import static com.adrienfenech.Sample.AnimationHelper.launchTouchAnimation;
-import static com.adrienfenech.Sample.AnimationHelper.launchVerticalAnimation;
-import static com.adrienfenech.Sample.MaterialHelper.getRandomDirectOfTransition;
-import static com.adrienfenech.Sample.MaterialHelper.getRandomMaterialColor;
-import static com.adrienfenech.Sample.MaterialHelper.getRandomTypeOfTransition;
+import static org.brogrammer.Sample.AnimationHelper.launchAndroidAnimation;
+import static org.brogrammer.Sample.AnimationHelper.launchCircleAnimation;
+import static org.brogrammer.Sample.AnimationHelper.launchHorizontalAnimation;
+import static org.brogrammer.Sample.AnimationHelper.launchLineAnimation;
+import static org.brogrammer.Sample.AnimationHelper.launchRectangleAnimation;
+import static org.brogrammer.Sample.AnimationHelper.launchTouchAnimation;
+import static org.brogrammer.Sample.AnimationHelper.launchVerticalAnimation;
+import static org.brogrammer.Sample.MaterialHelper.getRandomDirectOfTransition;
+import static org.brogrammer.Sample.MaterialHelper.getRandomMaterialColor;
+import static org.brogrammer.Sample.MaterialHelper.getRandomTypeOfTransition;
 
 /**
  * Created by octo on 19/05/16.

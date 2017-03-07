@@ -1,11 +1,5 @@
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-}
-
 apply plugin: 'com.android.library'
-apply plugin: 'com.jfrog.bintray'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 25
@@ -31,26 +25,13 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.2.0'
 }
 
-bintray {
-    user = 'socmodder@gmail.com'
-    key = 'd1b30ce358f2ea1b4d8291942351273749b9b40f'
-    pkg {
-        version {
-            name = '1.0'
-            desc = 'Initial release'
-            released = new Date()
-            publications = ['MyPublication']
-        }
-
-    }
+publish {
+    groupId = 'org.brogrammer'
+    artifactId = 'materialiconview'
+    publishVersion = '0.5.0'
+    licences = ['Apache-2.0']
+    uploadName='materialiconview'
+    website = 'https://github.com/SoCmodder/MaterialIconView.git'
 }
 
 //GROUP_ID:ARTIFACT_ID:VERSION
-
-publishing {
-    publications {
-        MyPublication(MavenPublication)
-        from components.java
-        groupId ''
-    }
-}
