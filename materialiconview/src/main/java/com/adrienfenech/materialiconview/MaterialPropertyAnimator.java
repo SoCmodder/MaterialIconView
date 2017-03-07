@@ -22,9 +22,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by Adrien Fenech on 28/04/16.
- */
 public class MaterialPropertyAnimator {
     /** Default animation's duration **/
     public static final long DEFAULT_ANIMATION_DURATION = 500; // 500ms

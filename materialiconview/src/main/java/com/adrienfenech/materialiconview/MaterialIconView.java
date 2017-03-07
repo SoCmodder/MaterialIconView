@@ -7,16 +7,14 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.drawable.BitmapDrawable;
+import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
-import android.widget.ImageView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Adrien Fenech on 27/04/16.
- */
-public class MaterialIconView extends ImageView {
+public class MaterialIconView extends AppCompatImageView
+{
     Context context;
     Bitmap originalBitmap = null;
     Bitmap canvasBitmap;
