@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MaterialIconView.iml" filepath="$PROJECT_DIR$/MaterialIconView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaterialIconView.iml" filepath="$PROJECT_DIR$/MaterialIconView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialiconview/materialiconview.iml" filepath="$PROJECT_DIR$/materialiconview/materialiconview.iml" />
       <module fileurl="file://$PROJECT_DIR$/materialiconview/materialiconview.iml" filepath="$PROJECT_DIR$/materialiconview/materialiconview.iml" />
     </modules>
   </component>
