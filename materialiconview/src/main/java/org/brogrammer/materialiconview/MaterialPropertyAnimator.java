@@ -12,6 +12,7 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.RectF;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Handler;
+import android.support.v4.view.ViewCompat;
 import android.view.View;
 import android.view.ViewPropertyAnimator;
 import android.view.animation.AccelerateDecelerateInterpolator;
@@ -436,7 +437,7 @@ public class MaterialPropertyAnimator {
      */
     private void launchAnimation() {
         materialIconView.removeCallbacks(animationStarter);
-        materialIconView.postOnAnimation(animationStarter);
+        ViewCompat.postOnAnimation(materialIconView, animationStarter);
     }
 
     /**
