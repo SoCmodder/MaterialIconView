@@ -1,1 +1,1 @@
-include ':app', ':materialiconview'
+include ':sample', ':materialiconview'
